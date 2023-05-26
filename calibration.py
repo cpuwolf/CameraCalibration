@@ -68,7 +68,7 @@ pickle.dump(dist, open( "dist.pkl", "wb" ))
 
 print("matrix\n",cameraMatrix)
 
-print("distortion\n",cameraMatrix)
+print("distortion\n",dist)
 ############## UNDISTORTION #####################################################
 
 img = cv.imread('cncfinger.png')
